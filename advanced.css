@@ -7,14 +7,14 @@ body{
     margin: 25px 35px;
 }
 
-.container{
+.form-cont{
     max-width: 1140px;
     min-width: 200px;
     width: 96%;
     margin: 40px 2% 0 45px;
 }
 
-.cont-box{
+.content-box{
     width: 100%;
     clear: both;
 }
@@ -22,7 +22,7 @@ body{
 .contbox{
     clear: both;
 }
-.pos-box{
+.stbox{
     float: left;
     display: inline-block;
     min-width: 167px;
@@ -33,7 +33,7 @@ body{
     vertical-align: middle;
 }
 
-.lOATE{
+.txtbox{
     height: 30px;
     display: table-cell;
     vertical-align: center;;
@@ -58,3 +58,20 @@ body{
     padding-left: 5px;
     vertical-align: 5px;
 }
+
+.stpbox{
+   float:left ;
+   display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.ibox{
+    padding-right: 16px;
+}
+
