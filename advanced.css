@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+}
+#upbar{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.container{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.cont-box{
+    width: 100%;
+    clear: both;
+}
+
+.contbox{
+    clear: both;
+}
+.pos-box{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+
+.lOATE{
+    height: 30px;
+    display: table-cell;
+    vertical-align: center;;
+}
+
+.wspace{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.stxt{
+    float: left;
+    display: inline-block;
+    width: 33%;
+    font-size:13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: 5px;
+}

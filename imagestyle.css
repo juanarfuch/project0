@@ -1,0 +1,128 @@
+.father{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    top: 50%;
+}
+
+#q{
+    width: 457px;
+    height: 34px;
+    border: 1px solid #cbd2d8;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 2px 6px;
+    outline: none;
+    word-wrap: break-word;
+    font-size: 13px;
+    cursor: text;
+}
+
+#button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial,  sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    /*Interlineao*/
+    line-height: 27px;
+    height: 36px;
+    /*Como se mostrar el cursor del mouse sobre el elemento*/
+    cursor: pointer;
+}
+
+.search-button:hover{
+    box-shadow: 0 1 1px #aab3bb;
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
+
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+ a{
+    text-decoration: none;
+    font-family: Arial,  sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+}
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    
+}
+
+
+.minsize{
+    min-height: 92px;
+}
+
+.size{
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+.p1{
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+.logo{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+img{
+    height: 92px;
+    aspect-ratio: auto 272/92;
+}
+div{
+    display: block;
+}
+
+.images{
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}
